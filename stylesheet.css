@@ -1,0 +1,48 @@
+/* 
+    stylesheet.css 
+    this sheet contains the custome styles for practicePage.html
+*/
+body{
+	font-size: 3em;
+}
+a.vocabCategory{
+	text-decoration: none;
+}
+a.vocabCategory div:hover{
+	text-decoration: none;
+	background-color: rgb(228,228,228);
+}
+.panel-title{
+	font-size: 1.4em;
+}
+.panel-heading{
+	padding: 4px 4px 4px 12px;
+	color: rgb(62,62,62);	
+}
+.panel-heading:hover{
+	color: rgb(22,62,162);
+}
+.panel-body{
+	font-size: 1.4em;
+	background-color: rgb(238,238,238); 
+}
+.sentence{
+	border: 1px solid rgb(238,238,238);	
+	border-radius: 10px;
+}
+.sentence:hover{
+	background-color: white;
+	border: 1px solid rgb(162,162,162);	
+	cursor:pointer;
+	text-decoration: none;
+}
+.definition{
+	font-size: .8em;
+}
+a.vocabWord{
+	text-decoration: none;
+}
+a.vocabWord div:hover{
+	text-decoration: none;
+	background-color: rgb(228,228,228);
+}
