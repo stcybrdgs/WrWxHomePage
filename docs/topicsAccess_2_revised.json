@@ -1,0 +1,20 @@
+{
+  "Version": "2008-10-17",
+  "Id": "__default_policy_ID",
+  "Statement": [
+    {
+      "Sid": "__default_statement_ID",
+      "Effect": "Allow",
+      "Principal": {
+        "Service": "s3.amazonaws.com"
+      },
+      "Action": "SNS:Publish",
+      "Resource": "arn:aws:sns:us-east-2:486091526193:S3-Data-Catalog-Output-Notification",
+      "Condition": {
+        "ArnEquals": {
+          "AWS:SourceArn":"arn:aws:s3:::wrwx-data-catalog-output"
+        }
+      }
+    }
+  ]
+}
