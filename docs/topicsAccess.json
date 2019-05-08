@@ -9,7 +9,7 @@
         "Service": "s3.amazonaws.com"
       },
       "Action": "SNS:Publish",
-      "Resource": "SNS_TOPIC_ARN",
+      "Resource": "arn:aws:sns:us-east-2:486091526193:S3-Demo-Notifications",
       "Condition": {
         "ArnEquals": {
           "aws:SourceArn": "S3_BUCKET_ARN"
